@@ -1,0 +1,34 @@
+{
+  "name": "finconsgroup-my-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "repository": "github:grafana/simple-react-panel",
+  "author": "Andrea Benfatti",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/grafana/simple-react-panel/issues",
+    "email": "plugins@grafana.com"
+  },
+  "devDependencies": {
+    "@grafana/data": "7.0.1",
+    "@grafana/toolkit": "7.0.1",
+    "@grafana/ui": "7.0.1",
+    "emotion": "10.0.27"
+  },
+  "engines": {
+    "node": ">=12 <13"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "node-sass": "^4.14.1",
+    "react-bootstrap": "^1.3.0",
+    "react-data-menu": "^1.1.2",
+    "react-google-charts": "^3.0.15"
+  }
+}
